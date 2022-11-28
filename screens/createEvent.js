@@ -37,6 +37,7 @@ export default function CreateEvent({ navigation }) {
           onChangeText={(text) => setEventName(text)}
           value={eventName}
           placeholder="Enter Event name"
+          maxLength={30}
         />
       </View>
     );
